@@ -1,0 +1,22 @@
+{
+  "name": "deployingnodejstoaws",
+  "version": "1.0.0",
+  "description": "hosting node app to aws",
+  "main": "index.js",
+ "type": "module",
+  "scripts": {
+    "server": "nodemon src/index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "nodemon"
+  ],
+  "author": "dilipkumar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
